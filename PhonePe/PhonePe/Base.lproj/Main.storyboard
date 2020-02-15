@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PhonePe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ctl-ZQ-axv">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="288"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="288" id="nd4-QR-PdT"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iqr-tN-0ND">
+                                <rect key="frame" x="34" y="264" width="252" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1Na-t5-LpW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Iqr-tN-0ND" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fx6-m8-ojC"/>
+                            <constraint firstItem="ctl-ZQ-axv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HWv-IY-pwH"/>
+                            <constraint firstItem="Iqr-tN-0ND" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="JOW-Eg-1Pf"/>
+                            <constraint firstItem="ctl-ZQ-axv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gtD-L4-tnN"/>
+                            <constraint firstItem="ctl-ZQ-axv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hFj-sw-xQm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iqr-tN-0ND" secondAttribute="trailing" constant="34" id="nET-bH-I5i"/>
+                            <constraint firstItem="Iqr-tN-0ND" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tBs-gR-hNA"/>
+                            <constraint firstItem="Iqr-tN-0ND" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wLE-Fu-epC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="ctl-ZQ-axv" id="hOT-3p-Fts"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="135.21126760563379"/>
+        </scene>
+    </scenes>
+</document>

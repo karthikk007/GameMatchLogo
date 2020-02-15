@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B217BE23F7F69900B724C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217BD23F7F69900B724C1 /* AppDelegate.swift */; };
+		74B217C023F7F69900B724C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217BF23F7F69900B724C1 /* SceneDelegate.swift */; };
+		74B217C223F7F69900B724C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217C123F7F69900B724C1 /* ViewController.swift */; };
+		74B217C523F7F69900B724C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B217C323F7F69900B724C1 /* Main.storyboard */; };
+		74B217C723F7F69A00B724C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B217C623F7F69A00B724C1 /* Assets.xcassets */; };
+		74B217CA23F7F69A00B724C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B217C823F7F69A00B724C1 /* LaunchScreen.storyboard */; };
+		74B217D523F7F69A00B724C1 /* PhonePeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217D423F7F69A00B724C1 /* PhonePeTests.swift */; };
+		74B217E023F7F69A00B724C1 /* PhonePeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217DF23F7F69A00B724C1 /* PhonePeUITests.swift */; };
+		74B217EF23F7F72200B724C1 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217EE23F7F72200B724C1 /* GameModel.swift */; };
+		74B217F423F7F80000B724C1 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217F323F7F80000B724C1 /* GameViewModel.swift */; };
+		74B217F723F7F87400B724C1 /* GameModelDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217F623F7F87400B724C1 /* GameModelDownloadService.swift */; };
+		74B217FC23F7FA0400B724C1 /* Serviceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B217FB23F7FA0400B724C1 /* Serviceable.swift */; };
+		74B2180123F802F900B724C1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2180023F802F900B724C1 /* StringExtension.swift */; };
+		74B2180323F8087D00B724C1 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2180223F8087D00B724C1 /* UIImageExtension.swift */; };
+		74B2180523F80F5900B724C1 /* logo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 74B2180423F80F5900B724C1 /* logo.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74B217D123F7F69A00B724C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B217B223F7F69900B724C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B217B923F7F69900B724C1;
+			remoteInfo = PhonePe;
+		};
+		74B217DC23F7F69A00B724C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B217B223F7F69900B724C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B217B923F7F69900B724C1;
+			remoteInfo = PhonePe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74B217BA23F7F69900B724C1 /* PhonePe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B217BD23F7F69900B724C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74B217BF23F7F69900B724C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74B217C123F7F69900B724C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74B217C423F7F69900B724C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B217C623F7F69A00B724C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B217C923F7F69A00B724C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B217CB23F7F69A00B724C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B217D023F7F69A00B724C1 /* PhonePeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhonePeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B217D423F7F69A00B724C1 /* PhonePeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePeTests.swift; sourceTree = "<group>"; };
+		74B217D623F7F69A00B724C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B217DB23F7F69A00B724C1 /* PhonePeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhonePeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B217DF23F7F69A00B724C1 /* PhonePeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePeUITests.swift; sourceTree = "<group>"; };
+		74B217E123F7F69A00B724C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B217EE23F7F72200B724C1 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		74B217F323F7F80000B724C1 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		74B217F623F7F87400B724C1 /* GameModelDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModelDownloadService.swift; sourceTree = "<group>"; };
+		74B217FB23F7FA0400B724C1 /* Serviceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serviceable.swift; sourceTree = "<group>"; };
+		74B2180023F802F900B724C1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		74B2180223F8087D00B724C1 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		74B2180423F80F5900B724C1 /* logo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logo.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B217B723F7F69900B724C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B217CD23F7F69A00B724C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B217D823F7F69A00B724C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B217B123F7F69900B724C1 = {
+			isa = PBXGroup;
+			children = (
+				74B217BC23F7F69900B724C1 /* PhonePe */,
+				74B217D323F7F69A00B724C1 /* PhonePeTests */,
+				74B217DE23F7F69A00B724C1 /* PhonePeUITests */,
+				74B217BB23F7F69900B724C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B217BB23F7F69900B724C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B217BA23F7F69900B724C1 /* PhonePe.app */,
+				74B217D023F7F69A00B724C1 /* PhonePeTests.xctest */,
+				74B217DB23F7F69A00B724C1 /* PhonePeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B217BC23F7F69900B724C1 /* PhonePe */ = {
+			isa = PBXGroup;
+			children = (
+				74B217FF23F802ED00B724C1 /* Extension  */,
+				74B217FA23F7F9DD00B724C1 /* Protocols */,
+				74B217F523F7F85E00B724C1 /* Service */,
+				74B217F123F7F73D00B724C1 /* View */,
+				74B217F023F7F73700B724C1 /* ViewModel */,
+				74B217ED23F7F71400B724C1 /* Model */,
+				74B217BD23F7F69900B724C1 /* AppDelegate.swift */,
+				74B217BF23F7F69900B724C1 /* SceneDelegate.swift */,
+				74B217C323F7F69900B724C1 /* Main.storyboard */,
+				74B217C623F7F69A00B724C1 /* Assets.xcassets */,
+				74B217C823F7F69A00B724C1 /* LaunchScreen.storyboard */,
+				74B217CB23F7F69A00B724C1 /* Info.plist */,
+				74B2180423F80F5900B724C1 /* logo.txt */,
+			);
+			path = PhonePe;
+			sourceTree = "<group>";
+		};
+		74B217D323F7F69A00B724C1 /* PhonePeTests */ = {
+			isa = PBXGroup;
+			children = (
+				74B217D423F7F69A00B724C1 /* PhonePeTests.swift */,
+				74B217D623F7F69A00B724C1 /* Info.plist */,
+			);
+			path = PhonePeTests;
+			sourceTree = "<group>";
+		};
+		74B217DE23F7F69A00B724C1 /* PhonePeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74B217DF23F7F69A00B724C1 /* PhonePeUITests.swift */,
+				74B217E123F7F69A00B724C1 /* Info.plist */,
+			);
+			path = PhonePeUITests;
+			sourceTree = "<group>";
+		};
+		74B217ED23F7F71400B724C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74B217EE23F7F72200B724C1 /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74B217F023F7F73700B724C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74B217F323F7F80000B724C1 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74B217F123F7F73D00B724C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74B217C123F7F69900B724C1 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74B217F523F7F85E00B724C1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				74B217F623F7F87400B724C1 /* GameModelDownloadService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		74B217FA23F7F9DD00B724C1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				74B217FB23F7FA0400B724C1 /* Serviceable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		74B217FF23F802ED00B724C1 /* Extension  */ = {
+			isa = PBXGroup;
+			children = (
+				74B2180023F802F900B724C1 /* StringExtension.swift */,
+				74B2180223F8087D00B724C1 /* UIImageExtension.swift */,
+			);
+			path = "Extension ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B217B923F7F69900B724C1 /* PhonePe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B217E423F7F69A00B724C1 /* Build configuration list for PBXNativeTarget "PhonePe" */;
+			buildPhases = (
+				74B217B623F7F69900B724C1 /* Sources */,
+				74B217B723F7F69900B724C1 /* Frameworks */,
+				74B217B823F7F69900B724C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhonePe;
+			productName = PhonePe;
+			productReference = 74B217BA23F7F69900B724C1 /* PhonePe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B217CF23F7F69A00B724C1 /* PhonePeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B217E723F7F69A00B724C1 /* Build configuration list for PBXNativeTarget "PhonePeTests" */;
+			buildPhases = (
+				74B217CC23F7F69A00B724C1 /* Sources */,
+				74B217CD23F7F69A00B724C1 /* Frameworks */,
+				74B217CE23F7F69A00B724C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B217D223F7F69A00B724C1 /* PBXTargetDependency */,
+			);
+			name = PhonePeTests;
+			productName = PhonePeTests;
+			productReference = 74B217D023F7F69A00B724C1 /* PhonePeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74B217DA23F7F69A00B724C1 /* PhonePeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B217EA23F7F69A00B724C1 /* Build configuration list for PBXNativeTarget "PhonePeUITests" */;
+			buildPhases = (
+				74B217D723F7F69A00B724C1 /* Sources */,
+				74B217D823F7F69A00B724C1 /* Frameworks */,
+				74B217D923F7F69A00B724C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B217DD23F7F69A00B724C1 /* PBXTargetDependency */,
+			);
+			name = PhonePeUITests;
+			productName = PhonePeUITests;
+			productReference = 74B217DB23F7F69A00B724C1 /* PhonePeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B217B223F7F69900B724C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kumar, Karthik";
+				TargetAttributes = {
+					74B217B923F7F69900B724C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					74B217CF23F7F69A00B724C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 74B217B923F7F69900B724C1;
+					};
+					74B217DA23F7F69A00B724C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 74B217B923F7F69900B724C1;
+					};
+				};
+			};
+			buildConfigurationList = 74B217B523F7F69900B724C1 /* Build configuration list for PBXProject "PhonePe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B217B123F7F69900B724C1;
+			productRefGroup = 74B217BB23F7F69900B724C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B217B923F7F69900B724C1 /* PhonePe */,
+				74B217CF23F7F69A00B724C1 /* PhonePeTests */,
+				74B217DA23F7F69A00B724C1 /* PhonePeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B217B823F7F69900B724C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B217CA23F7F69A00B724C1 /* LaunchScreen.storyboard in Resources */,
+				74B217C723F7F69A00B724C1 /* Assets.xcassets in Resources */,
+				74B217C523F7F69900B724C1 /* Main.storyboard in Resources */,
+				74B2180523F80F5900B724C1 /* logo.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B217CE23F7F69A00B724C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B217D923F7F69A00B724C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B217B623F7F69900B724C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B217C223F7F69900B724C1 /* ViewController.swift in Sources */,
+				74B217FC23F7FA0400B724C1 /* Serviceable.swift in Sources */,
+				74B217EF23F7F72200B724C1 /* GameModel.swift in Sources */,
+				74B2180323F8087D00B724C1 /* UIImageExtension.swift in Sources */,
+				74B217BE23F7F69900B724C1 /* AppDelegate.swift in Sources */,
+				74B217F423F7F80000B724C1 /* GameViewModel.swift in Sources */,
+				74B2180123F802F900B724C1 /* StringExtension.swift in Sources */,
+				74B217C023F7F69900B724C1 /* SceneDelegate.swift in Sources */,
+				74B217F723F7F87400B724C1 /* GameModelDownloadService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B217CC23F7F69A00B724C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B217D523F7F69A00B724C1 /* PhonePeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B217D723F7F69A00B724C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B217E023F7F69A00B724C1 /* PhonePeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74B217D223F7F69A00B724C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B217B923F7F69900B724C1 /* PhonePe */;
+			targetProxy = 74B217D123F7F69A00B724C1 /* PBXContainerItemProxy */;
+		};
+		74B217DD23F7F69A00B724C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B217B923F7F69900B724C1 /* PhonePe */;
+			targetProxy = 74B217DC23F7F69A00B724C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74B217C323F7F69900B724C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B217C423F7F69900B724C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B217C823F7F69A00B724C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B217C923F7F69A00B724C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B217E223F7F69A00B724C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74B217E323F7F69A00B724C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B217E523F7F69A00B724C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LAJFC42B9;
+				INFOPLIST_FILE = PhonePe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.logoGame.PhonePe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74B217E623F7F69A00B724C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LAJFC42B9;
+				INFOPLIST_FILE = PhonePe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.logoGame.PhonePe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74B217E823F7F69A00B724C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LAJFC42B9;
+				INFOPLIST_FILE = PhonePeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.logoGame.PhonePeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhonePe.app/PhonePe";
+			};
+			name = Debug;
+		};
+		74B217E923F7F69A00B724C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LAJFC42B9;
+				INFOPLIST_FILE = PhonePeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.logoGame.PhonePeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhonePe.app/PhonePe";
+			};
+			name = Release;
+		};
+		74B217EB23F7F69A00B724C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LAJFC42B9;
+				INFOPLIST_FILE = PhonePeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.logoGame.PhonePeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhonePe;
+			};
+			name = Debug;
+		};
+		74B217EC23F7F69A00B724C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LAJFC42B9;
+				INFOPLIST_FILE = PhonePeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.logoGame.PhonePeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhonePe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B217B523F7F69900B724C1 /* Build configuration list for PBXProject "PhonePe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B217E223F7F69A00B724C1 /* Debug */,
+				74B217E323F7F69A00B724C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B217E423F7F69A00B724C1 /* Build configuration list for PBXNativeTarget "PhonePe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B217E523F7F69A00B724C1 /* Debug */,
+				74B217E623F7F69A00B724C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B217E723F7F69A00B724C1 /* Build configuration list for PBXNativeTarget "PhonePeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B217E823F7F69A00B724C1 /* Debug */,
+				74B217E923F7F69A00B724C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B217EA23F7F69A00B724C1 /* Build configuration list for PBXNativeTarget "PhonePeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B217EB23F7F69A00B724C1 /* Debug */,
+				74B217EC23F7F69A00B724C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B217B223F7F69900B724C1 /* Project object */;
+}
